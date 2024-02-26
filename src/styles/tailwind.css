@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  a.fc-col-header-cell-cushion {
+    color: #000000 !important; /* Couleur du texte en noir */
+    background-color: inherit !important; /* Hérite de la couleur de fond si nécessaire */
+    text-decoration: none !important; /* Supprime la soulignement */
+  }
+
+
+  .fc .fc-daygrid-day-number {
+    padding: 4px;
+    position: relative;
+    z-index: 4;
+    color: black;
+    text-decoration: none;
+}
+
+.p-4.z-0.flex.flex-col.relative.justify-between.gap-4.bg-content1.overflow-auto.rounded-large.shadow-small.w-full {
+    padding: 20px;
+    width: 80vw;
+}
+
+.flex.flex-col.relative.gap-4.w-full {
+    align-items: center;
+}
+
+.fc-event-time {
+  display: none;
+}
+
+.fc-daygrid-dot-event .fc-event-title {
+  color: rgba(0, 0, 0, 0.351);
+}
